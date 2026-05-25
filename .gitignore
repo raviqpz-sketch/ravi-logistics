@@ -1,0 +1,50 @@
+# ─── Java / Maven ───────────────────────────────────────
+target/
+*.class
+*.jar
+*.war
+*.ear
+*.nar
+.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+# ─── Spring Boot ────────────────────────────────────────
+application-local.yml
+application-local.properties
+*.env
+
+# ─── Node / Angular ─────────────────────────────────────
+node_modules/
+dist/
+.angular/
+.npm/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ─── IDEs ───────────────────────────────────────────────
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# ─── OS files ───────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ─── Logs ───────────────────────────────────────────────
+logs/
+*.log
+
+# ─── Misc ───────────────────────────────────────────────
+*.tmp
+*.bak
+*.orig
